@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111111; /* Black background */
+    color: #ffffff;
+}
+
+header {
+   /* background: linear-gradient(90deg, #ff6600, #cc5200);  Gradient from orange to darker orange */
+    background: linear-gradient(145deg, #333333, #222222);
+    color: #ff6600;
+    padding: 5px 0;
+    text-align: center;
+    
+}
+
+.logo h1 {
+    margin: 25px;
+    padding-left: 16rem;
+    font-size: 2em;
+    color: ff6600;
+    text-align: left;
+    text-decoration: none;
+        
+}
+
+
+.logo h1 a {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+
+.logo h1 a:hover  {
+    text-decoration: none;
+    color: #ffffff;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li {
+    
+    margin-right: 10%;
+}
+
+nav ul li a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+
+/*   landing page - main */
+
+.landingpage {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70vh;
+    background-color: #f4f4f4;
+    padding-top: 2%;
+
+    text-align: center;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust this value for desired spacing */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+}
+
+
+.contact-form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e65c00;
+}
+
+
+.contact-btn {
+    background-color: #ff6600; /* Orange accent */
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark grey background */
+}
+
+.service-item {
+    background: linear-gradient(145deg, #333333, #222222); /* Subtle gradient for service items */
+    border-radius: 10px;
+    width: 28%;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    background: linear-gradient(145deg, #444444, #333333);
+}
+
+.service-item h2:hover {
+    color: white;
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #ff6600; /* Orange for icons */
+}
+
+h2 {
+    color: #ff6600; /* Orange for headings */
+    font-size: 1.5em;
+}
+
+p {
+    color: #cccccc;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff6600; /* Orange accent */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #cc5200; /* Darker orange on hover */
+}
+
+footer {
+    background-color: #222222; /* Darker grey */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+   
+}
